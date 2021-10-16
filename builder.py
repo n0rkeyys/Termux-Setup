@@ -50,7 +50,7 @@ cd
 """)
 shell.close()
 s("rm -r /data/data/com.termux/files/usr/etc/bash.bashrc")
-s("mv /data/data/com.termux/files/home/bash.bashrc //data/data/com.termux/files/usr/etc")
+s("mv bash.bashrc //data/data/com.termux/files/usr/etc")
 import colorama
 from colorama import Fore,Back,Style
 s("clear")
